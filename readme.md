@@ -17,7 +17,11 @@
 ## How to use Standalone component in through out application
 - first add selector in component u want to display for example i want to display in app.html so added ```<app-user/>``` selector
 - import user component in app.ts file like ``` http://localhost:4200/``` and ```imports: [RouterOutlet,User],```
-# fjdskfdjf
+### Type of binding
+- Interpolation
+- Property Binding
+- Event Binding
+- Two Way Data Binding
 fjkdsf
 jdkfdsjfd
 dfjkdfjs
