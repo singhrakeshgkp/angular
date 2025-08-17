@@ -1,5 +1,5 @@
 # Basic
-- [Standalone Component](#sandalone-component)
+- [Standalone Component](#Standalone-component)
 - jdfkdf
 
 
@@ -8,3 +8,4 @@
 fjkdsf
 jdkfdsjfd
 dfjkdfjs
+kdfkdsf
