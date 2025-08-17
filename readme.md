@@ -31,7 +31,7 @@
 ## Directives
 - Add Extra behavior to elements in your template
   ### Types of directives
-  - **Component directive**
+  - **Component directive** Used with a template, this is most common directive type.
   - **Structural directive** Change appearance of DOM/elements ex ngIf, ngFor, ngSwitch
   - **Attribute directive** Change the DOM layout,
     - ngClass(adds or remove a set of css classess)
