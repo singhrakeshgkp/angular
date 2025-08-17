@@ -18,7 +18,8 @@
 - first add selector in component u want to display for example i want to display in app.html so added ```<app-user/>``` selector
 - import user component in app.ts file like ``` http://localhost:4200/``` and ```imports: [RouterOutlet,User],```
 ### Type of binding
-- Interpolation
-- Property Binding
-- Event Binding
+- **One Way data binding** -> Data moves in one direction from component to view
+  - **Interpolation** -> component----->{{ value }}--->view
+  - **Property Binding** --> Component--->[]--->view
+  - **Event Binding**   Component<----Event<---View
 - Two Way Data Binding
