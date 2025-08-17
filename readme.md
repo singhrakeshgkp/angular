@@ -23,4 +23,5 @@
   - **Property Binding** --> Component--->[]--->view
   - **Event Binding**   Component<----Event<---View
 - **Two Way Data Binding**
-  - ex. Component<-------[(ngModel)]------> View
+  - First import ```FormsModule``` in your component.ts file
+  - Now use  ngModel in your view.  ex of two way binding Component<-------[(ngModel)]------> View
