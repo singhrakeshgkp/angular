@@ -22,4 +22,5 @@
   - **Interpolation** -> component----->{{ value }}--->view
   - **Property Binding** --> Component--->[]--->view
   - **Event Binding**   Component<----Event<---View
-- Two Way Data Binding
+- **Two Way Data Binding**
+  - ex. Component<-------[(ngModel)]------> View
