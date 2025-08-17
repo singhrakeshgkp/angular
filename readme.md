@@ -31,6 +31,9 @@
 ## Directives
 - Add Extra behavior to elements in your template
   ### Types of directives
-  - Component directive
-  - Structural directive
-  - Attribute directive
+  - **Component directive**
+  - **Structural directive** Change appearance of DOM/elements ex ngIf, ngFor, ngSwitch
+  - **Attribute directive** Change the DOM layout,
+    - ngClass(adds or remove a set of css classess)
+    - ngStyle(add or removes a set of HTML styles)
+    - ngModel Adds two way data binding to an an html form elements 
