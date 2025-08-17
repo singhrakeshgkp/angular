@@ -29,3 +29,8 @@
   - First import ```FormsModule``` in your component.ts file
   - Now use  ngModel in your view.  ex of two way binding Component<-------[(ngModel)]------> View
 ## Directives
+- Add Extra behavior to elements in your template
+  ### Types of directives
+  - Component directive
+  - Structural directive
+  - Attribute directive
