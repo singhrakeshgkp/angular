@@ -22,7 +22,3 @@
 - Property Binding
 - Event Binding
 - Two Way Data Binding
-fjkdsf
-jdkfdsjfd
-dfjkdfjs
-kdfkdsf
