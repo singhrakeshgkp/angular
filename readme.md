@@ -5,7 +5,7 @@
   - [Directives](#directives)
 
 # Basic
-## Standalone Componet
+## Standalone Component
 - In the past before angular 14 we were using non-standalone component, if we want to use any component that component must be defined in app.module.ts file under @NgModule declaration section as shown below. However with Angular 14 or later we can use angular component independently    
   ```
    @NgModule({
