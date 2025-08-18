@@ -46,3 +46,4 @@
     node_modules/bootstrap/dist/css/bootstrap.min.css
     node_modules/bootstrap/dist/js/bootstrap.min.js
     ```
+ - Proceed with coding with different directives.
