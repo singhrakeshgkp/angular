@@ -3,6 +3,7 @@
   - [Standalone Component](#Standalone-component)
   - [Type Of Data Binding](#type-of-data-binding)
   - [Directives](#directives)
+     - [Directives Hands On](#directives-hands-on)
 
 # Basic
 ## Standalone Component
@@ -36,4 +37,12 @@
   - **Attribute directive** Change the DOM layout,
     - ngClass(adds or remove a set of css classess)
     - ngStyle(add or removes a set of HTML styles)
-    - ngModel Adds two way data binding to an an html form elements 
+    - ngModel Adds two way data binding to an an html form elements
+### Directives Hands On
+- Install bootstrap
+  - ```npm i bootstrap```
+  - Look for bootstrap.min.js and bootstrap.min.css file under node module and copy path in angular.json file
+    ```
+    node_modules/bootstrap/dist/css/bootstrap.min.css
+    node_modules/bootstrap/dist/js/bootstrap.min.js
+    ```
