@@ -4,6 +4,7 @@
   - [Type Of Data Binding](#type-of-data-binding)
   - [Directives](#directives)
      - [Directives Hands On](#directives-hands-on)
+  - [Signals](#Signals)
 
 # Basic
 ## Standalone Component
@@ -47,3 +48,11 @@
     node_modules/bootstrap/dist/js/bootstrap.min.js
     ```
  - Proceed with coding with different directives.
+
+## Signals
+- The only difference between normal variable and signal is that, signal we specifiy with parenthesis for example counter(), age(),.....etc.
+- Type of signals
+  - Writable signal
+  - Computed signal/Read Only Signal
+## Effects
+- Kind of operation that runs when one or more signal value change.
