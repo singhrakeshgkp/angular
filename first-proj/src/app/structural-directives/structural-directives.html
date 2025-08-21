@@ -1,0 +1,145 @@
+<div class="row text-center">
+  <div class="col-12 m-3">
+    <p>ngIf example</p>
+  </div>
+</div>
+
+<div class="row text-center">
+  <div class="col-4">
+    <div (click)="onClick()">
+      <input type="checkbox"> Terms and Conditions
+    </div>
+    <div *ngIf="isChecked">
+      <button class="btn btn-success">Submit</button>
+    </div>
+  </div>
+
+  <!-- FIXED: col4 → col-4 -->
+  <div class="col-4">
+    <div *ngIf="isInputFieldEnabled">
+      <input type="text" value="First Angular app">
+    </div>
+    <button class="btn btn-primary m-2" (click)="showInputField()">Show</button>
+    <button class="btn btn-danger m-2" (click)="hideInputField()">Hide</button>
+  </div>
+
+  <!-- FIXED: col4 → col-4 -->
+  <div class="col-4">
+    <div>
+      <input type="password" [(ngModel)]="input1">
+      <input type="password" [(ngModel)]="input2">
+    </div>
+    <div *ngIf="input1 == input2">
+      <h4>Passwords are equal</h4>
+    </div>
+    <div *ngIf="input1 != input2">
+      <h4>Passwords are not equal</h4>
+    </div>
+  </div>
+</div>
+<!-- ^ Added closing </div> for row -->
+
+<div class="row text-center">
+  <div class="col-12 m-3">
+    <p>if example (using @ if directive)</p>
+  </div>
+</div>
+
+<div class="row align-center">
+  <div class="col-4">
+    <div (click)="termAndCondition()">
+      <input type="checkbox"> Terms and conditions 2
+    </div>
+    @if (tandC) {
+      <button class="btn btn-success">Submit</button>
+    }
+  </div>
+</div>
+
+<div class="row text-center">
+  <div class="col-12 m-3">
+    <p>*ngFor Example</p>
+  </div>
+</div>
+
+<div class="row align-center">
+  <!-- FIXED: colo-4 → col-4 -->
+  <div class="col-4">
+    <select>
+      <option *ngFor="let customer of customers" [value]="customer.id">
+        {{ customer.id }} - {{ customer.name }}
+      </option>
+    </select>
+  </div>
+</div>
+
+<div class="row text-center">
+  <div class="col-12 m-3">
+    <p>for Example</p>
+  </div>
+</div>
+
+<div class="row align-center">
+
+  <div class="col-4">
+    <table class="table table-bordered table-striped table-hover table-sm align-middle">
+      <thead class="table-dark">
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (cust of customers; track cust.id) {
+          <tr>
+            <td>{{ cust.id }}</td>
+            <td>{{ cust.name }}</td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+
+
+<div class="row text-center">
+  <div class="col-12 m-3">
+    <p>switch example (using variant 1)</p>
+  </div>
+</div>
+
+<div class="row align-center">
+  <div class="col-4" >
+    <div [ngSwitch]="grade">
+        <div *ngSwitchCase="'R1'">Exceptional</div>
+         <div *ngSwitchCase="'R2'">Good</div>
+         <div *ngSwitchCase="'R3'">Improvement Required</div>
+         <div *ngSwitchDefault>Grade not found</div>
+    </div>
+  </div>
+</div>
+
+
+<div class="row text-center">
+  <div class="col-12 m-3">
+    <p>switch example (using variant 2)</p>
+  </div>
+</div>
+
+<div class="row align-center">
+  <div class="col-4" >
+    @switch(grade){
+        @case ('R1'){
+             <div>Exceptional</div>
+        }@case ('R2'){
+             <div>Good</div>
+        }@case ('R3'){
+             <div>dfdf</div>
+        }@default{
+             <div>Not found</div>
+        }
+    }
+  </div>
+</div>

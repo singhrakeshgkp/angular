@@ -1,0 +1,44 @@
+<div class="row text-center">
+    <div class="col-12 m3">
+        <h3>Attribute directive examples</h3>
+    </div>
+</div>
+
+
+<div class="row text-center pt-3">
+    <div class="col-4">
+        <h4 [class]="textColor"> class attribute example</h4> 
+        <h4 [ngClass]="textColor">ng class attribute example</h4> 
+       <br/>
+       <button class="btn btn-success m-2" (click)="onClick('text-danger')">change color</button>
+    </div>
+
+    <div class="col-4">
+         <h4 [ngClass]="isTextSuccess? 'text-success' : 'text-danger'">conditional attribute class directive example</h4> 
+         <br/>
+         <input type="checkbox" [(ngModel)]="isTextSuccess">Change color
+    </div>
+
+    <div class="col-4">
+        <h4 [ngClass]="classFromInput">Class Attribute Example 3</h4> 
+        <br/>
+        <input type="text" [(ngModel)]="classFromInput" placeholder="text-success"/>
+    </div>
+</div>
+
+
+
+
+<div class="row text-center pt-3">
+    <div class="col-4">
+        <h4 [ngStyle]="{'color': styleColor}">ng style attribute example</h4> 
+       <br/>
+       <button class="btn btn-success m-2" (click)="onClick('text-danger')">change color</button>
+    </div>
+
+    <div class="col-4">
+        <h4 [ngStyle]="customClass">ng style attribute example, this is my third example</h4> 
+       <br/>
+    </div>
+
+</div>
