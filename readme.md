@@ -5,6 +5,7 @@
   - [Directives](#directives)
      - [Directives Hands On](#directives-hands-on)
   - [Signals](#Signals)
+  - [Routing](#Routing)
 
 # Basic
 ## Standalone Component
@@ -54,8 +55,10 @@
 - Type of signals
   - Writable signal
   - Computed signal/Read Only Signal
+  - LinkedSignal
 ## Effects
 - Kind of operation that runs when one or more signal value change.
 - Signal is mandatory in effect if its not present functiona will not get execute ext.
   - Function will execute and print log ```effect(()=>console.log("counter value is "+this.counter()))``
   - Function will not execute, on console nothing will be printedeffect(()=>console.log("counter value is "))
+## Routing
