@@ -62,3 +62,15 @@
   - Function will execute and print log ```effect(()=>console.log("counter value is "+this.counter()))``
   - Function will not execute, on console nothing will be printedeffect(()=>console.log("counter value is "))
 ## Routing
+- Search bootstrap nav bar in google and then copy html content in app.html file.
+- **Routing using router Outlet** -> This approach will refresh entire page
+  - Use href attribute to route
+  - Also add router outlet tag
+  - Import router outlet in app.component.js file
+- Routing using router link
+   - Import RouterLink in app.component.js file
+   - instead of href use ```routerLink``` attribute, we can use ```routerLink``` attribute in four ways.
+      - ```routerLink="user"```
+      - ```routerLink="/user"```
+      - ```[routerLink]="user"```
+      - ```[routerLink]="['user']"```
