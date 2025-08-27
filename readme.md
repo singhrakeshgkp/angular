@@ -63,14 +63,21 @@
   - Function will not execute, on console nothing will be printedeffect(()=>console.log("counter value is "))
 ## Routing
 - Search bootstrap nav bar in google and then copy html content in app.html file.
-- **Routing using router Outlet** -> This approach will refresh entire page
+- **RouterOutlet Directive** -> This approach will refresh entire page
   - Use href attribute to route
   - Also add router outlet tag
   - Import router outlet in app.component.js file
-- Routing using router link
+- **RouterLink Directive**
    - Import RouterLink in app.component.js file
    - instead of href use ```routerLink``` attribute, we can use ```routerLink``` attribute in four ways.
       - ```routerLink="user"```
       - ```routerLink="/user"```
       - ```[routerLink]="user"```
       - ```[routerLink]="['user']"```
+- **RouterLinkActive Directive** --> Can be used to add css in any element. For example if we click on user, and want user link apear active. we can achieve this using RouterLinkActive directive.
+   - Import ```RouterLinkActive``` directory in app.ts file
+   - add following in all the menu to make selected link active.
+     ```
+     <a class="nav-link" routerLinkActive="active" routerLink="user">User</a>
+     <a class="nav-link"  routerLinkActive="active" routerLink="data-binding">Data Binding</a>
+     ```
