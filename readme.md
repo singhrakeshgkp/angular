@@ -81,3 +81,9 @@
      <a class="nav-link" routerLinkActive="active" routerLink="user">User</a>
      <a class="nav-link"  routerLinkActive="active" routerLink="data-binding">Data Binding</a>
      ```
+- **Routing on form submit** ex. login if fail route to error page if pass route to success dashboard, limitation of this is that we can not perform any taks before routing for ex validating input type etc.
+   - Modify user.html, add login controls
+   - Import routerLink in ```user.ts``` file.
+- **Routing dynamically** using ```navigage``` in ```user.ts``` file.
+   - Modify ```user.html``` file add click event in button.
+   - Add login method and constructor in ```user.ts``` file.
