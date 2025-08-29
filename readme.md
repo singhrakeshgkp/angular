@@ -6,6 +6,7 @@
      - [Directives Hands On](#directives-hands-on)
   - [Signals](#Signals)
   - [Routing](#Routing)
+  - [LifecycleHooks](#lifecyclehooks)
 
 # Basic
 ## Standalone Component
@@ -87,3 +88,15 @@
 - **Routing dynamically** using ```navigage``` in ```user.ts``` file.
    - Modify ```user.html``` file add click event in button.
    - Add login method and constructor in ```user.ts``` file.
+## Lifecyclehooks
+- its a series of method that angular calls at different stages of component lifecycles, developer can perform action/execute code at any specific point such as when a component is initialized, updated or destroyed.
+- Lifecyclehooks execution order
+  1. **ngOnChanges()** --> Called when an input property  of component changes
+  2. **ngOnInit()** --> called once after the component is initialized.
+  3. **ngDoCheck()** --> called everytime change detection runs.
+  4. **ngAfterContentInit()** --> Called after component contents is initialized.
+  5. **ngAfterContentChecked()** --> Called after components contents has been checked.
+  6. **ngAfterViewInit()** --> Called after components view has been initialized
+  7. **ngAfterViewChecked()** -->
+  8. **ngOnDestroy()** --> called before the component is destroyed.
+ - modify ```user.ts``` file, implement all hooks and its corresponding methods and test
