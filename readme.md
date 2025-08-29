@@ -7,6 +7,7 @@
   - [Signals](#Signals)
   - [Routing](#Routing)
   - [LifecycleHooks](#lifecyclehooks)
+  - [Angular Pipes](#Angular-pipes)
 
 # Basic
 ## Standalone Component
@@ -100,3 +101,5 @@
   7. **ngAfterViewChecked()** -->
   8. **ngOnDestroy()** --> called before the component is destroyed.
  - modify ```user.ts``` file, implement all hooks and its corresponding methods and test
+
+## Angular pipes
