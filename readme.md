@@ -8,6 +8,7 @@
   - [Routing](#Routing)
   - [LifecycleHooks](#lifecyclehooks)
   - [Angular Pipes](#Angular-pipes)
+  - [Custom Pipes](custom-pipes)
 
 # Basic
 ## Standalone Component
@@ -103,3 +104,8 @@
  - modify ```user.ts``` file, implement all hooks and its corresponding methods and test
 
 ## Angular pipes
+- kind of function takes input, can format data, data types, sort, aggregate, filter...etc
+- example LowerCasePipe, UpperCasePipe, TitleCasePipe(first letter in upper case), DatePipe, JsonPipe, DecimalPipe,PercentagePipe, CurrencyPipe, SlicePipe,AsyncPipe.
+
+## Custom Pipes
+
