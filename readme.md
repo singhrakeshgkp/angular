@@ -8,7 +8,7 @@
   - [Routing](#Routing)
   - [LifecycleHooks](#lifecyclehooks)
   - [Angular Pipes](#Angular-pipes)
-  - [Custom Pipes](custom-pipes)
+  - [Custom Pipes](#custom-pipes)
 
 # Basic
 ## Standalone Component
