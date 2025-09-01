@@ -115,20 +115,19 @@
 ## Forms
 - T**ypes of Angular form**
    - **Template driven forms** ---> Created using HTML templates and are suitable for simple form.
-   - Steps for creating template driven forms
-     1. Import FormsModule.
-     2. Build HTML template.
-     3. ngForm: convert to template driven form
-     4. formControl: basic building block of angular form
-     5. submit form: use ngSubmit to submit form data.
-  - **Form Validation**
-    - Built in validators
-      1. Required--> Make sure form control has value
-      2. MinLength
-      3. MaxLength
-      4. Pattern
-      5. Email
+    - Steps for creating template driven forms
+      1. Import FormsModule.
+      2. Build HTML template.
+      3. ngForm: convert to template driven form
+      4. formControl: basic building block of angular form
+      5. submit form: use ngSubmit to submit form data.
+    - **Form Validation**
+      - Built in validators
+        1. Required--> Make sure form control has value
+        2. MinLength
+        3. MaxLength
+        4. Pattern
+        5. Email
   
-     
    - **Reactive forms** ---> Created programatically using form control and form group classes, suitable for complex forms.
 
