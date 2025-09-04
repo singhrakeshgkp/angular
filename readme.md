@@ -116,8 +116,8 @@
 - use formatter pipe name in predefinedpipe.html file to demonstrate. ex zip code is prefixed with Country which is India
 ## Forms
 ### Template driven form
-    - Created using HTML templates and are suitable for simple form.
-    - Steps for creating template driven forms
+  - Created using HTML templates and are suitable for simple form.
+  - Steps for creating template driven forms
       1. Import FormsModule.
       2. Build HTML template.
       3. ngForm: convert to template driven form
@@ -131,8 +131,9 @@
         4. Pattern
         5. Email
   
-  ### Reactive form
-     - Created programatically using form control and form group classes, suitable for complex forms.
+### Reactive form
+
+  - Created programatically using form control and form group classes, suitable for complex forms.
       1. Import the ReactiveForms module
       2. Create Form instance using form group.
       3. Create form template and map form instance to FormGroup.
