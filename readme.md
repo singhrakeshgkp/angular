@@ -68,6 +68,8 @@
 - Signal is mandatory in effect if its not present functiona will not get execute ext.
   - Function will execute and print log ```effect(()=>console.log("counter value is "+this.counter()))``
   - Function will not execute, on console nothing will be printedeffect(()=>console.log("counter value is "))
+ 
+# Branch 002-routing
 ## Routing
 - Search bootstrap nav bar in google and then copy html content in app.html file.
 - **RouterOutlet Directive** -> This approach will refresh entire page
