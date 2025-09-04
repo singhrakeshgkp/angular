@@ -115,8 +115,8 @@
 - add formatter logic in ```formatterpipe.ts file, inside transform method```
 - use formatter pipe name in predefinedpipe.html file to demonstrate. ex zip code is prefixed with Country which is India
 ## Forms
-- **Types of Angular form**
-   - **Template driven forms** ---> Created using HTML templates and are suitable for simple form.
+### Template driven forms
+    - Created using HTML templates and are suitable for simple form.
     - Steps for creating template driven forms
       1. Import FormsModule.
       2. Build HTML template.
@@ -131,7 +131,8 @@
         4. Pattern
         5. Email
   
-   - **Reactive forms** ---> Created programatically using form control and form group classes, suitable for complex forms.
+  ### Reactive forms 
+     - Created programatically using form control and form group classes, suitable for complex forms.
       1. Import the ReactiveForms module
       2. Create Form instance using form group.
       3. Create form template and map form instance to FormGroup.
