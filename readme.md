@@ -12,6 +12,7 @@
   - [Forms](#forms)
      - [Template driven form](#Template-driven-form)
      - [Reactive Form](#reactive-form)
+  - [Service](#service)
 
 # Basic
 ## Standalone Component
@@ -138,5 +139,10 @@
       2. Create Form instance using form group.
       3. Create form template and map form instance to FormGroup.
       4. Add form control to your template form field
-      5. Handle form submission. 
+      5. Handle form submission.
+   
+## Service
+- Service allow us to re-use code/business logic ...etc. Create employeeservice with ```ng g s userservice``` command and employeeex component
+- Inject employee service in serviceex.ts file and bind the data coming from service in serviceex.html file.
+
 
