@@ -1,6 +1,8 @@
 
-## Making Http Get api call
-- Add ```provideHttpClient``` in your ```apss.config.ts``` file
-- Use Json place holder api ```https://jsonplaceholder.typicode.com/posts``` to test http get call
-- Create a postservice and postcomponent, write required logic to make http call in postservice.ts file and subscribe getmehtod in post.ts file.
-- Add String interpolation in ```post.html``` and render the response.
+## CRUD Operation
+- we can use https://beeceptor.com/ for testing purpose,
+- lets install json server
+  - step1 use ```npm i -g json-server@0``` command
+  - Create a new file ```db.json``` at root level, add some data in it.
+  - Now run json server using command ```json-server --watch db.json```
+
