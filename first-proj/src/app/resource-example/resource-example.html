@@ -1,0 +1,21 @@
+<div class="container">
+    <h2 class="text-center m-4">Users Data, resource and rxResource example</h2>
+    <table class="table table-success table-striped">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">User Name</th>
+                <th scope="col">Email</th>
+            </tr>
+        </thead>
+        <tbody>
+           <!-- with Http <tr *ngFor="let user of usersData"> -->
+            <!-- with rxresource and and resource -->
+             <tr *ngFor="let user of usersData.value()">
+                <td>{{ user.user_id }}</td>
+                <td>{{ user.username }}</td>
+                <td>{{ user.email }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
